@@ -3,25 +3,32 @@
 This project was created for the CodeAlpha Cyber Security Internship.
 
 ## Project Overview
-This project demonstrates a basic secure coding review of a simple Python login system. The review identifies common security vulnerabilities and recommends safer coding practices.
+The purpose of this project is to identify security vulnerabilities in a simple login system and provide recommendations to improve application security.
+
+## Vulnerabilities Identified
+- Weak passwords
+- Hardcoded credentials
+- No input validation
+- Plain text password storage
+- No account lockout protection
+
+## Security Improvements
+- Stronger password practices
+- Secure credential handling
+- Input validation
+- Better authentication security
+- Improved protection against brute-force attacks
 
 ## Files Included
-- `Source_Code/vulnerable_login.py` - intentionally vulnerable login example
-- `Source_Code/secure_login.py` - improved login example
-- `Report/Secure_Coding_Review_Report.docx` - professional security review report
-
-## Vulnerabilities Reviewed
-- Hardcoded credentials
-- Weak passwords
-- Plain text password storage
-- No input validation
-- No account lockout mechanism
-- Poor error handling practices
+- vulnerable_login.py
+- secure_login.py
+- SecureCodingReview_Report
+- README.md
 
 ## Tools Used
 - Python
-- Manual secure code review
-- Secure coding best practices
+- Visual Studio Code
+- Cyber Security Research
 
 ## Author
 Hayden Wessels
